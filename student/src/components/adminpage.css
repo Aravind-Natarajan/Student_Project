@@ -1,0 +1,111 @@
+/* adminpage.css */
+.admin-container {
+    padding: 20px;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-table th, .student-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .student-table th {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .student-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .student-table input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .update-btn {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .update-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Delete confirmation popup */
+  .confirmation-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirm-btn, .cancel-btn {
+    margin: 5px;
+  }
+  
+  .confirm-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  
